@@ -28,9 +28,9 @@ const RecipeSlider = () => {
                 More <span className="text-yellow-500">Categories</span>
             </h2>
 
-            {/* Swiper Container */}
+
             <div className="relative">
-                {/* Custom Navigation Buttons */}
+
                 <button 
                     className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white shadow-lg p-3 rounded-full z-10 hover:bg-yellow-400 transition-all"
                     onClick={() => swiperRef.current?.slidePrev()}

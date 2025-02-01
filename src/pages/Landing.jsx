@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Navbar from "../Navbar";
-// import { FaSearch } from "react-icons/fa";
 import AutoScrollingSlider from "./AutoScrollingSlider";
 import RecipeSlider from "./RecipeSlider";
 
@@ -130,7 +128,6 @@ const Landing = () => {
 
     return (
         <div>
-            <Navbar />
 
 
             <div className="relative w-full h-[300px] md:h-[500px]">

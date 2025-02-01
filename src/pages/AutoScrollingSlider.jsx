@@ -3,8 +3,8 @@ export default function AutoScrollingSlider() {
       <div className="bg-gray-200 py-5 md:mt-12 overflow-hidden ">
         <h2 className="text-center text-2xl md:text-[40px] font-semibold mb-4">Our Happy <span className="text-yellow-500">Cooking Partners</span></h2>
 
-        <div className="relative m-auto overflow-hidden md:w-[72%]">
-          <div className="flex gap-5 px-6 animate-scroll w-fit">
+        <div className="relative m-auto overflow-hidden md:w-[85%]">
+          <div className="flex gap-12 px-6 animate-scroll w-fit">
             {[
               "https://www.foodfusion.com/wp-content/uploads/2017/07/Dawn-Foods-1.png",
               "https://www.foodfusion.com/wp-content/uploads/2017/07/Meat-One-Meat-Experts-Logo-1.png",

@@ -174,7 +174,7 @@ const Landing = () => {
                         <div key={food.id} className="lg:w-[50%]">
                             <img className="rounded-lg w-full h-auto" src={food.image} alt={food.title} />
                             <h2 className="text-xl font-semibold mt-2">{food.title}</h2>
-                            <p className="text-gray-700">{food.para}</p>
+                            <p className="">{food.para}</p>
                         </div>
                     ))}
 
@@ -215,6 +215,8 @@ const Landing = () => {
                     </button>
                 </div>
             </div>
+            <RecipeSlider/>
+
             <div>
                 <div className="container mx-auto px-4 md:w-[90%] m-12 md:mt-16">
                     <h2 className="text-center text-2xl md:text-[40px] font-semibold mb-4">Trending <span className="text-yellow-500">Food Fusion</span></h2>
@@ -239,7 +241,6 @@ const Landing = () => {
                 </div>
                     
                     <AutoScrollingSlider/>
-                    <RecipeSlider/>
             </div>
         </div>
     );
